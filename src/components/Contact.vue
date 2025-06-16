@@ -8,10 +8,10 @@
       </p>
       <div class="contact-icons">
         <a href="https://github.com/uswahalvi" target="_blank" rel="noopener noreferrer">
-          <img src="../assets/git.png" alt="GitHub" />
+          <img src="/git.png" alt="GitHub" />
         </a>
         <a href="https://linkedin.com/in/uswahalvi" target="_blank" rel="noopener noreferrer">
-          <img src="../assets/linkedin.png" alt="LinkedIn" />
+          <img src="/linkedin.png" alt="LinkedIn" />
         </a>
       </div>
     </div>

@@ -11,19 +11,19 @@
       </div>
       <div class="image-wrapper">
         <a href="https://crochetingmyway.shop" target="_blank">
-          <img class="product-catalog-image all-img" src="../assets/product-catalog.PNG" />
+          <img class="product-catalog-image all-img" src="/product-catalog.PNG" />
         </a>
         <a href="https://uswahalvi.github.io/ActivityPlanner" target="_blank">
-          <img class="activities-desktop-image all-img" src="../assets/Activties-phone.png" />
+          <img class="activities-desktop-image all-img" src="/Activties-phone.PNG" />
         </a>
         <a href="https://uswahalvi.github.io/react-quiz-app/" target="_blank">
-          <img class="quiz-image all-img" src="../assets/quiz-2.png" />
+          <img class="quiz-image all-img" src="/quiz-2.PNG" />
         </a>
         <a href="https://uswahalvi.github.io/world-wise" target="_blank">
-          <img class="world-wise-image all-img" src="../assets/world-wise-detail.png" />
+          <img class="world-wise-image all-img" src="/world-wise-detail.PNG" />
         </a>
         <a href="https://uswahalvi.github.io/react-quiz-app" target="_blank">
-          <img class="dashboard-image all-img" src="../assets/dashboard.png" />
+          <img class="dashboard-image all-img" src="/dashboard.PNG" />
         </a>
       </div>
     </div>

@@ -8,7 +8,7 @@
           <div class="project-wrapper">
             <a href="https://crochetingmyway.shop" target="_blank" class="project-link">
               <div class="project-title">E-Commerce Website</div>
-              <img class="project-image" src="../assets/1.PNG" />
+              <img class="project-image" src="/1.PNG" />
             </a>
           </div>
         </div>
@@ -17,7 +17,7 @@
           <div class="project-wrapper">
             <a href="https://uswahalvi.github.io/world-wise" target="_blank" class="project-link">
               <div class="project-title">World Wise App</div>
-              <img class="project-image" src="../assets/3.png" />
+              <img class="project-image" src="/3.PNG" />
             </a>
           </div>
         </div>
@@ -26,7 +26,7 @@
           <div class="project-wrapper">
             <a href="https://uswahalvi.github.io/ActivityPlanner" target="_blank" class="project-link">
               <div class="project-title">Activity Planner</div>
-              <img class="project-image" src="../assets/2.png" />
+              <img class="project-image" src="/2.PNG" />
             </a>
           </div>
         </div>
@@ -35,7 +35,7 @@
           <div class="project-wrapper">
             <a href="https://uswahalvi.github.io/react-quiz-app" target="_blank" class="project-link">
               <div class="project-title">Quiz App</div>
-              <img class="project-image" src="../assets/4.png" />
+              <img class="project-image" src="/4.PNG" />
             </a>
           </div>
         </div>
@@ -43,7 +43,7 @@
           <div class="project-wrapper">
             <a href="https://uswahalvi.github.io/dashboard" target="_blank" class="project-link">
               <div class="project-title">Dashboard</div>
-              <img class="project-image" src="../assets/dashboard.png" />
+              <img class="project-image" src="/dashboard.PNG" />
             </a>
           </div>
         </div>
