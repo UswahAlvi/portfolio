@@ -5,7 +5,7 @@ export function useToast() {
   const message = ref('')
   const type = ref('success') // 'success' or 'error'
 
-  const showToast = (msg, toastType = 'success') => {
+  const showToast = (msg: string, toastType = 'success') => {
   console.log('Toast triggered:', msg, toastType) // ✅ check if this logs
   show.value = false
   setTimeout(() => {

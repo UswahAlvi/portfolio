@@ -4,7 +4,7 @@
     <div class="container">
       <div class="intro">
         <div class="hi-div">Hi,</div>
-        <div>I am Uswah Alvi</div>
+        <div>I'm Uswah Alvi</div>
         <div class="tagline">
           I build functional websites and web apps using modern web technologies.
         </div>
@@ -35,7 +35,6 @@
 .page {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
 }
 
 .container {
@@ -141,11 +140,6 @@
   .hi-div {
     font-size: 32px;
   }
-
-  .tagline {
-    font-size: 20px;
-  }
-
   .image-wrapper {
     position: relative;
     height: 400px;
@@ -195,11 +189,6 @@
   .hi-div {
     font-size: 28px;
   }
-
-  .tagline {
-    font-size: 18px;
-  }
-
   .image-wrapper {
     position: relative;
     height: 350px;
@@ -243,9 +232,6 @@
     font-size: 24px;
   }
 
-  .tagline {
-    font-size: 16px;
-  }
 
   .image-wrapper {
     height: 300px;
@@ -264,5 +250,14 @@
   .dashboard-image {
     width: 220px;
   }
+}
+@media(max-width: 400px){
+  .dashboard-image {
+    right: 12px;
+  }
+  .world-wise-image{
+    right: 5px;
+  }
+  
 }
 </style>

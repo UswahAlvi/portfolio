@@ -147,7 +147,11 @@
   position: relative;
 }
 
-/* ✅ Start moving buttons inside from 1200px and below */
+@media(max-width: 1250px){
+  .wrapper{
+    margin-top: 330px;
+  }
+}
 @media (max-width: 1200px) {
   .carousel-control-prev {
     left: 10px;
@@ -182,6 +186,11 @@
   .carousel-control-prev-icon,
   .carousel-control-next-icon {
     padding: 12px;
+  }
+}
+@media(max-width: 380px){
+  .wrapper {
+  padding: 100px 10px 0px;
   }
 }
 </style>
