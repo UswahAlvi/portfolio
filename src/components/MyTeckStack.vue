@@ -1,0 +1,91 @@
+<template>
+  <div class="wrapper">
+    <div class="title">My Tech Stack</div>
+    <div class="tech-grid">
+      <div v-for="tech in techStack" :key="tech.name" class="tech-card">
+        <img :src="tech.icon" :alt="tech.name" class="tech-icon" />
+        <div class="tech-label">{{ tech.name }}</div>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script setup lang="ts">
+import htmlIcon from '../assets/html.png'
+import cssIcon from '../assets/css.png'
+import jsIcon from '../assets/js.png'
+import reactIcon from '../assets/react.png'
+import vueIcon from '../assets/vue.png'
+import nodeIcon from '../assets/node.png'
+import expressIcon from '../assets/express.png'
+import mongodbIcon from '../assets/mongodb.png'
+import supabaseIcon from '../assets/supabase.png'
+import tailwindIcon from '../assets/tailwind.png'
+import bootstrapIcon from '../assets/bootstrap.png'
+
+const techStack = [
+  { name: 'HTML', icon: htmlIcon },
+  { name: 'CSS', icon: cssIcon },
+  { name: 'Tailwind CSS', icon: tailwindIcon },
+  { name: 'Bootstrap', icon: bootstrapIcon },
+  { name: 'JavaScript', icon: jsIcon },
+  { name: 'React js', icon: reactIcon },
+  { name: 'Vue js', icon: vueIcon },
+  { name: 'Node js', icon: nodeIcon },
+  { name: 'Express', icon: expressIcon },
+  { name: 'MongoDB', icon: mongodbIcon },
+  { name: 'Supabase', icon: supabaseIcon },
+]
+</script>
+
+<style scoped>
+.wrapper {
+  padding: 100px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.title {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.tech-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 30px;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.tech-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.tech-card:hover {
+  transform: translateY(-5px);
+}
+
+.tech-icon {
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.tech-label {
+  font-size: 16px;
+  font-weight: 500;
+}
+</style>
