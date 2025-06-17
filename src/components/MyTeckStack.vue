@@ -21,7 +21,7 @@ import expressIcon from '/express.png'
 import mongodbIcon from '/mongodb.png'
 import supabaseIcon from '/supabase.png'
 import tailwindIcon from '/tailwind.png'
-import bootstrapIcon from '/bootstrap.png'
+import bootstrapIcon from '/bootstrap.PNG'
 
 const techStack = [
   { name: 'HTML', icon: htmlIcon },

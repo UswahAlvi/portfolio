@@ -1,65 +1,43 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-const isMenuOpen = ref(false)
+const props = defineProps<{
+  scrollToSection: (section: string) => void
+  isMenuOpen: boolean
+}>()
 
-const links = [
-  { id: 'about', text: 'About' },
-  { id: 'work', text: 'Work' },
-  { id: 'Tech Stack', text: 'Tech Stack' },
-  { id: 'contact', text: 'Contact' }
-]
+const emit = defineEmits(['update:isMenuOpen'])
 
 const toggleMenu = () => {
-  isMenuOpen.value = !isMenuOpen.value
-}
-const scrollToSection = (id: string) => {
-  const el = document.getElementById(id)
-  if (el) {
-    el.scrollIntoView({ behavior: 'smooth' })
-    isMenuOpen.value = false // close menu on mobile
-  }
+  emit('update:isMenuOpen', !props.isMenuOpen)
 }
 
+const handleClick = (section: string) => {
+  props.scrollToSection(section)
+  emit('update:isMenuOpen', false)
+}
 </script>
 
 <template>
   <div class="navbar">
-    <div class="brand" @click="scrollToSection('home')" style="cursor: pointer">
-      Uswah Alvi
-    </div>
+    <div class="brand" @click="() => handleClick('home')" style="cursor: pointer">Uswah Alvi</div>
 
-    
-    <button class="menu-button" @click="toggleMenu">
-      ☰
-    </button>
+    <button class="menu-button" @click="toggleMenu">☰</button>
 
     <div class="desktop-nav">
-      <a 
-        v-for="link in links" 
-        :key="link.id"
-        href="#"
-        class="nav-link" 
-        @click.prevent="scrollToSection(link.id)"
-      >
-        {{ link.text }}
-      </a>
-
+      <a href="#" class="nav-link" @click.prevent="() => handleClick('work')">Work</a>
+      <a href="#" class="nav-link" @click.prevent="() => handleClick('techStack')">Tech Stack</a>
+      <a href="#" class="nav-link" @click.prevent="() => handleClick('about')">About</a>
+      <a href="#" class="nav-link" @click.prevent="() => handleClick('contact')">Contact</a>
     </div>
 
     <div v-show="isMenuOpen" class="mobile-nav">
-      <a 
-        v-for="link in links" 
-        :key="link.id"
-        href="#"
-        class="nav-link" 
-        @click.prevent="scrollToSection(link.id)"
-      >
-        {{ link.text }}
-      </a>
-
+      <a href="#" class="nav-link" @click.prevent="() => handleClick('work')">Work</a>
+      <a href="#" class="nav-link" @click.prevent="() => handleClick('techStack')">Tech Stack</a>
+      <a href="#" class="nav-link" @click.prevent="() => handleClick('about')">About</a>
+      <a href="#" class="nav-link" @click.prevent="() => handleClick('contact')">Contact</a>
     </div>
   </div>
 </template>
+
 
 <style scoped>
 .navbar {
