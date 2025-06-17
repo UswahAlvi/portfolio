@@ -2,10 +2,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap' 
 import './main.css'
+import Homepage from './pages/Homepage.vue';
 </script>
 
 <template>
-  <div>
-    <router-view />
-  </div>
+  <Homepage />
 </template>

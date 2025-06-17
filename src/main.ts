@@ -1,6 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
-import './main.css'
-import router from './router/index'
 
-createApp(App).use(router).mount('#app')
+const app = createApp(App)
+console.log("App is about to mount")
+app.mount('#app')
+console.log("App mounted")
