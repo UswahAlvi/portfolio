@@ -11,17 +11,17 @@
 </template>
 
 <script setup lang="ts">
-import htmlIcon from '/icons/html.png'
-import cssIcon from '/icons/css.png'
-import jsIcon from '/icons/js.png'
-import reactIcon from '/icons/react.png'
-import vueIcon from '/icons/vue.png'
-import nodeIcon from '/icons/node.png'
-import expressIcon from '/icons/express.png'
-import mongodbIcon from '/icons/mongodb.png'
-import supabaseIcon from '/icons/supabase.png'
-import tailwindIcon from '/icons/tailwind.png'
-import bootstrapIcon from '/icons/bootstrap.PNG'
+import htmlIcon from '/html.png'
+import cssIcon from '/css.png'
+import jsIcon from '/js.png'
+import reactIcon from '/react.png'
+import vueIcon from '/vue.png'
+import nodeIcon from '/node.png'
+import expressIcon from '/express.png'
+import mongodbIcon from '/mongodb.png'
+import supabaseIcon from '/supabase.png'
+import tailwindIcon from '/tailwind.png'
+import bootstrapIcon from '/bootstrap.png'
 
 const techStack = [
   { name: 'HTML', icon: htmlIcon },
