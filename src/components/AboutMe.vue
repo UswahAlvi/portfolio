@@ -4,14 +4,14 @@
       <h2 class="about-title">About Me</h2>
       <div class="about-content">
         <p>
-          I'm a <span class="highlight">full-stack web developer</span> who loves turning ideas into clean, functional, and beautiful websites.
-          I work mostly with the <span class="highlight">MERN stack</span>, along with <span class="highlight">Vue</span> and <span class="highlight">Supabase</span>.
+          I'm a <span class="highlight">full-stack web developer</span> who loves turning ideas into clean, functional, and visually appealing web applications.  
+          I primarily work with the <span class="highlight">MERN stack</span> and <span class="highlight">Django</span>, using databases like <span class="highlight">PostgreSQL</span> and <span class="highlight">SQLite</span>.
         </p>
         <p>
-          When I’m not coding, I’m probably curled up with a book, crocheting something cozy, or getting way too invested in a cricket match.
+          When I’m not coding, you’ll probably find me curled up with a good book, crocheting something cozy, or getting way too invested in a cricket match.
         </p>
         <p>
-          Whether it’s building from scratch or bringing a Figma design to life, I love crafting great user experiences and writing code that feels just right.
+          Whether it’s building a project from scratch or bringing a <span class="highlight">Figma</span> design to life, I’m passionate about crafting seamless user experiences and writing code that feels just right.
         </p>
       </div>
     </div>
