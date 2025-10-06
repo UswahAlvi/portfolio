@@ -15,13 +15,13 @@ import htmlIcon from '/html.png'
 import cssIcon from '/css.png'
 import jsIcon from '/js.png'
 import reactIcon from '/react.png'
-import vueIcon from '/vue.png'
 import nodeIcon from '/node.png'
 import expressIcon from '/express.png'
-import mongodbIcon from '/mongodb.png'
-import supabaseIcon from '/supabase.png'
 import tailwindIcon from '/tailwind.png'
 import bootstrapIcon from '/bootstrap.PNG'
+import DjangoIcon from '/django.png'
+import NestIcon from '/nest.png'
+import PythonIcon from '/python.png'
 
 const techStack = [
   { name: 'HTML', icon: htmlIcon },
@@ -29,12 +29,13 @@ const techStack = [
   { name: 'Tailwind CSS', icon: tailwindIcon },
   { name: 'Bootstrap', icon: bootstrapIcon },
   { name: 'JavaScript', icon: jsIcon },
+  { name: 'Python', icon: PythonIcon },
   { name: 'React js', icon: reactIcon },
-  { name: 'Vue js', icon: vueIcon },
   { name: 'Node js', icon: nodeIcon },
   { name: 'Express', icon: expressIcon },
-  { name: 'MongoDB', icon: mongodbIcon },
-  { name: 'Supabase', icon: supabaseIcon },
+  { name: 'Django', icon: DjangoIcon},
+  { name: 'Nest js', icon: NestIcon},
+
 ]
 </script>
 

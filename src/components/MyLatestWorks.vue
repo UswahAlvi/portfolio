@@ -39,14 +39,6 @@
             </a>
           </div>
         </div>
-        <div class="carousel-item">
-          <div class="project-wrapper">
-            <a href="https://uswahalvi.github.io/dashboard" target="_blank" class="project-link">
-              <div class="project-title">Dashboard</div>
-              <img class="project-image" src="/dashboard.PNG" />
-            </a>
-          </div>
-        </div>
       </div>
 
       <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">

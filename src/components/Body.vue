@@ -22,7 +22,7 @@
         <a href="https://uswahalvi.github.io/world-wise" target="_blank">
           <img class="world-wise-image all-img" src="/world-wise-detail.PNG" />
         </a>
-        <a href="https://uswahalvi.github.io/react-quiz-app" target="_blank">
+        <a href="https://uswahalvi.github.io/dashboard" target="_blank">
           <img class="dashboard-image all-img" src="/dashboard.PNG" />
         </a>
       </div>
